@@ -1,0 +1,32 @@
+.container {
+	padding: 0 100px;
+}
+.row {
+	margin: 0;
+}
+
+.btn-warning,
+.btn-warning:link,
+.btn-warning:active,
+.btn-warning:visited,
+.btn-warning:focus,
+.btn-warning:target,
+.btn.focus,
+.btn.active,
+.btn-warning .button-variant
+ {
+	border: 1px solid transparent;
+	color: #000;
+	text-transform: uppercase;
+	background-color: #ffdf0a;
+}
+.btn-warning:hover {
+	border: 1px solid transparent;
+	color: #000;
+	background-color: #f8d90d;
+}
+.btn-lg {
+	width: 100%;
+	font-size: 15px;
+	font-weight: bold;
+}

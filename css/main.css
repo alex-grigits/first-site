@@ -1,0 +1,422 @@
+/* base styles*/
+body,
+.wrapper {
+	background-color: #fcfcf9;
+	height: 100%;
+}
+
+h2 {
+	margin: 0;
+	text-transform: uppercase;
+	color: #fff;
+	font: bold 65px "SegoeUI", serif;
+}
+
+h3 {
+	margin: 0;
+	text-transform: uppercase;
+	font: 30px "SegoeUI", serif;
+}
+
+/* Import fonts */
+@font-face {
+  font-family: 'SegoeUI';
+  src: url('../fonts/SegoeUIRegular/SegoeUIRegular.eot'),
+       url('../fonts/SegoeUIRegular/SegoeUIRegular.woff') format('woff'),
+       url('../fonts/SegoeUIRegular/SegoeUIRegular.ttf')  format('truetype');
+}
+@font-face {
+  font-family: 'SegoeUIBold';
+  src: url('../fonts/SegoeUIBold/SegoeUIBold.eot'),
+       url('../fonts/SegoeUIBold/SegoeUIBold.woff') format('woff'),
+       url('../fonts/SegoeUIBold/SegoeUIBold.ttf')  format('truetype');
+}
+
+/************ Section header ***************/
+
+/*Creating header and it's background*/
+.header {
+	height: 155px;
+	background: url(../img/bg/header.png);
+}
+
+/*Position for logo*/
+.logo {
+	display: block;
+	margin-top: 12px;
+}
+
+/*Creating a menu-top styles*/
+.menu-top {
+	padding: 50px 0 0 38px;
+}
+.menu-top_item a{
+	text-transform: uppercase;
+	color: #000;
+	font: 13px 'SegoeUI', serif;
+}
+
+/*Creating a info-top styles*/
+.info-top {
+	padding: 0;
+	text-align: center;
+}
+.info-top_item {
+	height: 50px;
+	line-height: 50px;
+}
+.info-top_btn {
+	border-radius: 0;
+}
+
+/******************** Section home ********************/
+.home {
+	padding-top: 110px;
+	height: 675px;
+	background-image: url(../img/bg/home.jpg);
+}
+.home h1 {
+	text-transform: uppercase;
+	color: #fff;
+	font: bold 50px/65px "SegoeUI", serif;
+}
+
+/******************** Section home-bottom ********************/
+.home-bottom {
+	padding-top: 135px;
+}
+.home-bottom p {
+	color: #fff;
+	text-align: center;
+	font: bold 24px "SegoeUI", serif;
+}
+
+/* home center */
+.home-center {
+	text-align: center;
+}
+.nav-social a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 43px 5px;
+	background-image: url(../img/social.png);	
+}
+.icon-vk {
+	background-position: 0 0;
+}
+.icon-vk:hover {
+	background-position: 0 -40px;
+}
+.icon-fb {
+	background-position: -40px 0;
+}
+.icon-fb:hover {
+	background-position: -40px -40px;
+}
+.icon-tw {
+	background-position: -80px 0;
+}
+.icon-tw:hover {
+	background-position: -80px -40px;
+}
+.icon-od {
+	background-position: -120px 0;
+}
+.icon-od:hover {
+	background-position: -120px -40px;
+}
+
+/******************** Section stat ********************/
+
+.stat {
+	height: 328px;
+	text-align: justify;
+	background-image: url(../img/bg/stat-bg.png);
+}
+
+.stat-header {
+	height: 123px;
+}
+
+.stat-header h3 {
+	display: inline-block;
+	line-height: 123px;
+}
+
+.stat-header_ic {
+	display: inline-block;
+	margin-top: 40px;
+	width: 45px;
+	height: 41px;
+	line-height: 123px;
+	background-image: url(../img/icons/monitor.png);
+}
+
+.stat-list h5 {
+	color: #fff;
+	margin: 0;
+	text-align: center;
+	text-transform: uppercase;
+	font: bold 13px Arial, serif;
+}
+
+.stat-list p {
+	margin-top: 40px;
+	color: #000;
+	text-align: center;
+	text-transform: uppercase;
+	font: bold 18px Arial, serif;
+}
+
+.icon-lunch {
+	display: inline-block;
+	margin-left: 92px;
+	margin-top: 40px;
+	width: 45px;
+	height: 41px;
+	line-height: 123px;
+	background: url(../img/icons/lunch.png) no-repeat;
+}
+
+.icon-restaurant {
+	display: inline-block;
+	margin-left: 92px;
+	margin-top: 40px;
+	width: 45px;
+	height: 41px;
+	line-height: 123px;
+	background: url(../img/icons/restaurant.png) no-repeat;
+}
+
+.icon-businessman {
+	display: inline-block;
+	margin-left: 92px;
+	margin-top: 40px;
+	width: 45px;
+	height: 41px;
+	line-height: 123px;
+	background: url(../img/icons/businessman.png) no-repeat;
+}
+
+.icon-zakaz {
+	display: inline-block;
+	margin-left: 92px;
+	margin-top: 40px;
+	width: 45px;
+	height: 41px;
+	line-height: 123px;
+	background: url(../img/icons/zakaz.png) no-repeat;
+}
+
+/******************** Section pers ********************/
+
+.pers {
+	height: 380px;
+	padding-top: 30px;
+	border-bottom: 1px #d7d7d4 solid;
+	text-align: center;
+}
+
+.pers h3 {
+	line-height: 50px;
+}
+
+.pers-humans {
+	padding-top: 50px;
+} 
+
+.pers img {
+	height: 150px;
+	width: 120px;
+	margin: 0 44px;
+}
+
+.pers img:first-child {
+	margin-left: 0;
+}
+
+.pers img:last-child {
+	margin-right: 0;
+}
+
+/******************** Section hiw ********************/
+
+.hiw {
+	height: 413px;
+	text-align: justify;
+}
+
+.hiw-header {
+	height: 123px;
+}
+
+.hiw-header h3 {
+	display: inline-block;
+	line-height: 123px;
+}
+
+.hiw-header_ic {
+	display: inline-block;
+	margin-top: 40px;
+	width: 37px;
+	height: 45px;
+	line-height: 123px;
+	background-image: url(../img/icons/data.png);
+}
+
+.hiw-main {
+	text-align: left;
+	line-height: 1.6em;
+	background-color: #fff;
+	font-size: 15px;
+	box-shadow: 0 1px 1px #ccc;
+}
+
+.hiw-main div[class^="col-"] {
+	max-width: 400px;
+	padding: 20px;
+	margin: 0 40px;
+}
+
+/******************** Section caterings ********************/
+
+.caterings {
+	height: 752px;
+	background-image: url(../img/bg/caterings.jpg);
+}
+
+.caterings-list {
+	padding-top: 50px;
+}
+
+.caterings-list ul>li {
+	line-height: 1.3em;
+	font-size: 24px;
+}
+
+.caterings-header {
+	height: 350px;
+	padding-top: 100px;
+}
+
+/******************** Section oficiants ********************/
+
+.oficiants {
+	height: 800px;
+	background-image: url(../img/bg/oficiants.jpg);	
+}
+
+.oficiants-list {
+	padding-top: 80px;
+}
+
+.oficiants-list ul>li {
+	line-height: 1.6em;
+	color: #fff;
+	font-size: 24px;
+}
+
+.oficiants-header {
+	height: 350px;
+	padding-top: 100px;
+	margin-bottom: 60px;
+}
+
+/******************** Section opartners ********************/
+
+.partners {
+	height: 600px;
+}
+
+.head {
+	padding-top: 50px;
+	text-align: center;
+}
+.head p {
+	padding-top: 40px;
+	text-transform: uppercase;
+	font-size: 15px;
+}
+
+.partners-logos {
+	height: 120px;
+	background-color: #fff;
+	box-shadow: 0 1px 1px #ccc;
+}
+
+.logos-items {
+	width: 100%;
+	padding-top: 15px;
+	text-align: center; /*Центрирует все элементы*/
+	letter-spacing: 35px; /*Растягивает по всей ширине родителя*/
+/*	overflow: hidden;*/
+}
+
+.logos-items img {
+	display: inline-block;
+	vertical-align: middle;
+	width: 92px;
+	height: auto;
+}
+
+.partners-nav {
+	padding-top: 75px;
+}
+
+.partners-nav h4 {
+	margin-bottom: 20px;
+	font-weight: bold;
+}
+
+.partners-nav ul {
+	margin: 0;
+	padding: 0;
+	line-height: 2.2em;
+}
+
+.partners-nav li {
+	list-style-type: none;
+	list-style-position: inside;
+}
+
+.partners-nav a:link,
+.partners-nav a:visited {
+	color: #a5a5a3;
+}
+
+/******************** Section footer ********************/
+
+.footer {
+	height: 125px;
+	background-color: #040404;
+}
+
+.footer-logo {
+	padding-top: 18px;
+}
+
+.footer-info {
+	height: 100%;
+	text-align: center;
+}
+
+.footer-info_item {
+	padding-top: 35px;
+	line-height: 2.4em;
+	color: #fff;
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.nav-social_bottom a{
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	margin: 40px 5px;
+	background-image: url(../img/social.png);	
+}
+
+.in {
+	height: 100%;
+}
